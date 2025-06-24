@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Send Feedback to Ryv3x</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    form {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+    input, textarea, button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <form action="https://formsubmit.co/anmolkhare86@gmail.com" method="POST">
+    <h2>💬 Send Feedback to Ryv3x</h2>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <textarea name="message" placeholder="Your Feedback..." required></textarea>
+    
+    <!-- Optional: Honeypot (spam protection) -->
+    <input type="text" name="_honey" style="display:none">
+    
+    <!-- Disable Captcha -->
+    <input type="hidden" name="_captcha" value="false">
+    
+    <!-- Redirect after submit -->
+    <input type="hidden" name="_next" value="https://thankyou.page.or.your.website">
+    
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
